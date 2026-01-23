@@ -1,0 +1,23 @@
+:root {
+  --text: black;
+  --bg: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dark {
+  --text: #ffffff;
+  --bg: #141414;
+}
+.ant-layout-sider,
+.ant-layout-sider-trigger,
+header {
+  background-color: var(--bg) !important;
+}
+.text-color {
+  color: var(--text) !important;
+}
+.text-color-active {
+  color: #1668dc !important;
+}

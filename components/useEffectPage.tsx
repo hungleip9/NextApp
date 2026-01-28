@@ -15,7 +15,7 @@ export default function useEffectPage() {
   useEffect(() => {
     fetch(`https://reqres.in/api/${action}`, {
       headers: {
-        "x-api-key": `${process.env.X_API_KEY}`,
+        "x-api-key": `${process.env.NEXT_PUBLIC_X_API_KEY}`,
       },
     })
       .then((res) => {

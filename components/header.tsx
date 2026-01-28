@@ -32,7 +32,7 @@ export default function HeaderPage() {
     };
   }
   const { userData, isOpen, setIsOpen, mode, setMode } = useContext(
-    AppContext
+    AppContext,
   ) as {
     userData: UserInfo;
     isOpen: boolean;
@@ -45,6 +45,7 @@ export default function HeaderPage() {
     { title: "Trang chủ", path: "/" },
     { title: "Demo", path: "/demo" },
     { title: "Demo2", path: "/demo2" },
+    { title: "Demo3", path: "/demo3" },
     { title: "Sản phẩm 1", path: "/products/1" },
     { title: "Sản phẩm 2", path: "/products/2" },
     { title: "Table", path: "/table" },
